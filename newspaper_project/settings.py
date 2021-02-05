@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from .secret import secret_key
+from secret import secret_key
 
 
 
