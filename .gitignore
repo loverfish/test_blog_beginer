@@ -1,2 +1,3 @@
 secret.py
-/__pycache__
+/.idea
+/newspaper_project/__pycache__/
