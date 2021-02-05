@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from .secret import secret_key
 
 
 
@@ -11,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'a=+0==4m_i(nbw$zpr6tm+s1etbyld0+&b-27bgjx+6xfcppvr'
+SECRET_KEY = secret_key
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
